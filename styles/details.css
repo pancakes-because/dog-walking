@@ -1,0 +1,25 @@
+.details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dotted goldenrod;
+    padding: 15px; 
+}
+
+.assignments {
+    padding: 1rem 5rem;
+    font-size: 17px; 
+}
+
+/* original error: display: fle; on line 2 */ 
+/* the property shoud be "display: flex" property, so missing an "x" on "flex" */
+
+/* original error?: padding property missing for .detail--column styles under line 9 */ 
+/* added padding: 15px to give space between text and border */ 
+
+/* original error?: the font for the "current assignments" section should be larger */ 
+/* adding a font-size property under line 19*/ 
